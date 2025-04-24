@@ -1,0 +1,19 @@
+# Install FlexTok locally
+-e external/flextok
+
+# Core ML framework
+torch>=1.12
+torchvision>=0.13
+
+# HuggingFace & diffusion utilities
+diffusers>=0.11
+huggingface-hub>=0.12
+
+# Image & array handling
+Pillow>=9.0
+einops>=0.6
+numpy>=1.23
+
+# (Optional) for CLI progress bars or extra demos
+tqdm>=4.64
+matplotlib>=3.5
